@@ -1,0 +1,45 @@
+﻿body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    background-image: url('../img/background.jpg');
+    display: flex;
+    flex-direction: column;
+}
+
+fields {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+field {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    align-items: center;
+}
+
+    field input {
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #444;
+        box-sizing: border-box;
+    }
+
+    field button {
+        padding: 5px;
+        box-sizing: border-box;
+        background-color: #4691ff;
+        border: 1px solid #444;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    canvas {
+        height: 100%;
+        width: 100%;
+    }
